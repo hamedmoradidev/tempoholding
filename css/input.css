@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "optima";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/OPTIMA.TTF");
+  }
+}
+
+@layer components {
+  .row {
+    @apply flex flex-wrap w-full;
+  }
+
+  .center {
+    @apply items-center justify-center;
+  }
+}
